@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00DB5BDC3B31A44D5BD7C905 /* Pods_QuantsAppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9434EAE3C7586D6F3131F2 /* Pods_QuantsAppTest.framework */; };
+		564BFF8AB66B3104199D232A /* Pods_QuantsAppTest_QuantsAppTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D76593AE4E136D7BCCB7D77 /* Pods_QuantsAppTest_QuantsAppTestUITests.framework */; };
 		C45BC97324D1E623000D8C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC97224D1E623000D8C96 /* AppDelegate.swift */; };
 		C45BC97524D1E623000D8C96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC97424D1E623000D8C96 /* SceneDelegate.swift */; };
 		C45BC97724D1E623000D8C96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC97624D1E623000D8C96 /* ViewController.swift */; };
@@ -15,6 +17,13 @@
 		C45BC97F24D1E625000D8C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45BC97D24D1E625000D8C96 /* LaunchScreen.storyboard */; };
 		C45BC98A24D1E626000D8C96 /* QuantsAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC98924D1E626000D8C96 /* QuantsAppTestTests.swift */; };
 		C45BC99524D1E626000D8C96 /* QuantsAppTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC99424D1E626000D8C96 /* QuantsAppTestUITests.swift */; };
+		C45BC9A424D1E8A5000D8C96 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC9A324D1E8A5000D8C96 /* NetworkManager.swift */; };
+		C45BC9A824D1EF37000D8C96 /* feedRootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC9A724D1EF37000D8C96 /* feedRootModel.swift */; };
+		C45BC9AA24D1EF66000D8C96 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC9A924D1EF66000D8C96 /* Feed.swift */; };
+		C45BC9AF24D1F487000D8C96 /* feedTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC9AD24D1F487000D8C96 /* feedTVC.swift */; };
+		C45BC9B024D1F487000D8C96 /* feedTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45BC9AE24D1F487000D8C96 /* feedTVC.xib */; };
+		C45BC9B224D1F8CE000D8C96 /* APP_EXTENSION.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC9B124D1F8CE000D8C96 /* APP_EXTENSION.swift */; };
+		D611D1F5F3176A8F03A5A714 /* Pods_QuantsAppTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F1E4C471C726164F32029B /* Pods_QuantsAppTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AFD83F6906B1B34A0358EAA /* Pods-QuantsAppTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantsAppTestTests.debug.xcconfig"; path = "Target Support Files/Pods-QuantsAppTestTests/Pods-QuantsAppTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A570CDC6811EB2AAC3E24A9 /* Pods-QuantsAppTest-QuantsAppTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantsAppTest-QuantsAppTestUITests.release.xcconfig"; path = "Target Support Files/Pods-QuantsAppTest-QuantsAppTestUITests/Pods-QuantsAppTest-QuantsAppTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D76593AE4E136D7BCCB7D77 /* Pods_QuantsAppTest_QuantsAppTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuantsAppTest_QuantsAppTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F1E4C471C726164F32029B /* Pods_QuantsAppTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuantsAppTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9434EAE3C7586D6F3131F2 /* Pods_QuantsAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuantsAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		677A2C484B0DFE5226509222 /* Pods-QuantsAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantsAppTest.release.xcconfig"; path = "Target Support Files/Pods-QuantsAppTest/Pods-QuantsAppTest.release.xcconfig"; sourceTree = "<group>"; };
+		69F02302E37F703AC87EB378 /* Pods-QuantsAppTest-QuantsAppTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantsAppTest-QuantsAppTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuantsAppTest-QuantsAppTestUITests/Pods-QuantsAppTest-QuantsAppTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E997D11108850638B09E49D /* Pods-QuantsAppTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantsAppTestTests.release.xcconfig"; path = "Target Support Files/Pods-QuantsAppTestTests/Pods-QuantsAppTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDD8F7A5FA990FC62AFCB193 /* Pods-QuantsAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantsAppTest.debug.xcconfig"; path = "Target Support Files/Pods-QuantsAppTest/Pods-QuantsAppTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C45BC96F24D1E623000D8C96 /* QuantsAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantsAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45BC97224D1E623000D8C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C45BC97424D1E623000D8C96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,12 @@
 		C45BC99024D1E626000D8C96 /* QuantsAppTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantsAppTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45BC99424D1E626000D8C96 /* QuantsAppTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantsAppTestUITests.swift; sourceTree = "<group>"; };
 		C45BC99624D1E626000D8C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45BC9A324D1E8A5000D8C96 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C45BC9A724D1EF37000D8C96 /* feedRootModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedRootModel.swift; sourceTree = "<group>"; };
+		C45BC9A924D1EF66000D8C96 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		C45BC9AD24D1F487000D8C96 /* feedTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedTVC.swift; sourceTree = "<group>"; };
+		C45BC9AE24D1F487000D8C96 /* feedTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = feedTVC.xib; sourceTree = "<group>"; };
+		C45BC9B124D1F8CE000D8C96 /* APP_EXTENSION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APP_EXTENSION.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DB5BDC3B31A44D5BD7C905 /* Pods_QuantsAppTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D611D1F5F3176A8F03A5A714 /* Pods_QuantsAppTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564BFF8AB66B3104199D232A /* Pods_QuantsAppTest_QuantsAppTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FA6D2E4F61D2E3041E430CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDD8F7A5FA990FC62AFCB193 /* Pods-QuantsAppTest.debug.xcconfig */,
+				677A2C484B0DFE5226509222 /* Pods-QuantsAppTest.release.xcconfig */,
+				69F02302E37F703AC87EB378 /* Pods-QuantsAppTest-QuantsAppTestUITests.debug.xcconfig */,
+				2A570CDC6811EB2AAC3E24A9 /* Pods-QuantsAppTest-QuantsAppTestUITests.release.xcconfig */,
+				1AFD83F6906B1B34A0358EAA /* Pods-QuantsAppTestTests.debug.xcconfig */,
+				7E997D11108850638B09E49D /* Pods-QuantsAppTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C45BC96624D1E623000D8C96 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				C45BC98824D1E626000D8C96 /* QuantsAppTestTests */,
 				C45BC99324D1E626000D8C96 /* QuantsAppTestUITests */,
 				C45BC97024D1E623000D8C96 /* Products */,
+				5FA6D2E4F61D2E3041E430CD /* Pods */,
+				E503D9020FA251F144B218AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,10 @@
 			children = (
 				C45BC97224D1E623000D8C96 /* AppDelegate.swift */,
 				C45BC97424D1E623000D8C96 /* SceneDelegate.swift */,
+				C45BC9B124D1F8CE000D8C96 /* APP_EXTENSION.swift */,
+				C45BC9AC24D1F473000D8C96 /* XIB */,
+				C45BC9A624D1EF1F000D8C96 /* MODELS */,
+				C45BC9A224D1E861000D8C96 /* Networking  */,
 				C45BC97624D1E623000D8C96 /* ViewController.swift */,
 				C45BC97824D1E623000D8C96 /* Main.storyboard */,
 				C45BC97B24D1E625000D8C96 /* Assets.xcassets */,
@@ -128,6 +174,42 @@
 			path = QuantsAppTestUITests;
 			sourceTree = "<group>";
 		};
+		C45BC9A224D1E861000D8C96 /* Networking  */ = {
+			isa = PBXGroup;
+			children = (
+				C45BC9A324D1E8A5000D8C96 /* NetworkManager.swift */,
+			);
+			path = "Networking ";
+			sourceTree = "<group>";
+		};
+		C45BC9A624D1EF1F000D8C96 /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				C45BC9A724D1EF37000D8C96 /* feedRootModel.swift */,
+				C45BC9A924D1EF66000D8C96 /* Feed.swift */,
+			);
+			path = MODELS;
+			sourceTree = "<group>";
+		};
+		C45BC9AC24D1F473000D8C96 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				C45BC9AD24D1F487000D8C96 /* feedTVC.swift */,
+				C45BC9AE24D1F487000D8C96 /* feedTVC.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		E503D9020FA251F144B218AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D9434EAE3C7586D6F3131F2 /* Pods_QuantsAppTest.framework */,
+				2D76593AE4E136D7BCCB7D77 /* Pods_QuantsAppTest_QuantsAppTestUITests.framework */,
+				35F1E4C471C726164F32029B /* Pods_QuantsAppTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45BC99924D1E626000D8C96 /* Build configuration list for PBXNativeTarget "QuantsAppTest" */;
 			buildPhases = (
+				423831B07275872EDF2ABC5D /* [CP] Check Pods Manifest.lock */,
 				C45BC96B24D1E623000D8C96 /* Sources */,
 				C45BC96C24D1E623000D8C96 /* Frameworks */,
 				C45BC96D24D1E623000D8C96 /* Resources */,
+				EA0EF34F83BB3AB14329B705 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45BC99C24D1E626000D8C96 /* Build configuration list for PBXNativeTarget "QuantsAppTestTests" */;
 			buildPhases = (
+				AD850FEF27EF3592C81FFC09 /* [CP] Check Pods Manifest.lock */,
 				C45BC98124D1E626000D8C96 /* Sources */,
 				C45BC98224D1E626000D8C96 /* Frameworks */,
 				C45BC98324D1E626000D8C96 /* Resources */,
@@ -170,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45BC99F24D1E626000D8C96 /* Build configuration list for PBXNativeTarget "QuantsAppTestUITests" */;
 			buildPhases = (
+				1988FE16867806DFE1F81ECD /* [CP] Check Pods Manifest.lock */,
 				C45BC98C24D1E626000D8C96 /* Sources */,
 				C45BC98D24D1E626000D8C96 /* Frameworks */,
 				C45BC98E24D1E626000D8C96 /* Resources */,
+				195BEE35BF2FE0B347D60C4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45BC97F24D1E625000D8C96 /* LaunchScreen.storyboard in Resources */,
+				C45BC9B024D1F487000D8C96 /* feedTVC.xib in Resources */,
 				C45BC97C24D1E625000D8C96 /* Assets.xcassets in Resources */,
 				C45BC97A24D1E623000D8C96 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +342,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		195BEE35BF2FE0B347D60C4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuantsAppTest-QuantsAppTestUITests/Pods-QuantsAppTest-QuantsAppTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuantsAppTest-QuantsAppTestUITests/Pods-QuantsAppTest-QuantsAppTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuantsAppTest-QuantsAppTestUITests/Pods-QuantsAppTest-QuantsAppTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1988FE16867806DFE1F81ECD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuantsAppTest-QuantsAppTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		423831B07275872EDF2ABC5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuantsAppTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD850FEF27EF3592C81FFC09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuantsAppTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0EF34F83BB3AB14329B705 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuantsAppTest/Pods-QuantsAppTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuantsAppTest/Pods-QuantsAppTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuantsAppTest/Pods-QuantsAppTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C45BC96B24D1E623000D8C96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45BC9A824D1EF37000D8C96 /* feedRootModel.swift in Sources */,
+				C45BC9AA24D1EF66000D8C96 /* Feed.swift in Sources */,
+				C45BC9A424D1E8A5000D8C96 /* NetworkManager.swift in Sources */,
+				C45BC9B224D1F8CE000D8C96 /* APP_EXTENSION.swift in Sources */,
 				C45BC97724D1E623000D8C96 /* ViewController.swift in Sources */,
 				C45BC97324D1E623000D8C96 /* AppDelegate.swift in Sources */,
+				C45BC9AF24D1F487000D8C96 /* feedTVC.swift in Sources */,
 				C45BC97524D1E623000D8C96 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,11 +628,13 @@
 		};
 		C45BC99A24D1E626000D8C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD8F7A5FA990FC62AFCB193 /* Pods-QuantsAppTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y5T2T62YH;
 				INFOPLIST_FILE = QuantsAppTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +648,13 @@
 		};
 		C45BC99B24D1E626000D8C96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677A2C484B0DFE5226509222 /* Pods-QuantsAppTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y5T2T62YH;
 				INFOPLIST_FILE = QuantsAppTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +668,7 @@
 		};
 		C45BC99D24D1E626000D8C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFD83F6906B1B34A0358EAA /* Pods-QuantsAppTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +691,7 @@
 		};
 		C45BC99E24D1E626000D8C96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E997D11108850638B09E49D /* Pods-QuantsAppTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +714,7 @@
 		};
 		C45BC9A024D1E626000D8C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F02302E37F703AC87EB378 /* Pods-QuantsAppTest-QuantsAppTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +735,7 @@
 		};
 		C45BC9A124D1E626000D8C96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A570CDC6811EB2AAC3E24A9 /* Pods-QuantsAppTest-QuantsAppTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

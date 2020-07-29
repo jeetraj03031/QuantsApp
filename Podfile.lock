@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.2.1)
+  - EmptyDataSet-Swift (5.0.0)
+  - NVActivityIndicatorView (5.0.0):
+    - NVActivityIndicatorView/Base (= 5.0.0)
+  - NVActivityIndicatorView/Base (5.0.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - EmptyDataSet-Swift (~> 5.0.0)
+  - NVActivityIndicatorView
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - EmptyDataSet-Swift
+    - NVActivityIndicatorView
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  NVActivityIndicatorView: f109ed069924ac1b4adbc1ae9cfaeac0be1d6c2c
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+
+PODFILE CHECKSUM: e384abeeb5bdb2d827645ba8e3303db5cefb162c
+
+COCOAPODS: 1.8.4
